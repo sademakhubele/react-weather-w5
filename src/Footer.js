@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 
 export default function Footer() {
     return (
@@ -18,5 +19,5 @@ export default function Footer() {
             Netlify
             </a>
         </footer>
-    )
+    );
 }
