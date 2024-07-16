@@ -1,0 +1,27 @@
+.WeatherForecast .forcastElement{
+    color: #e8eaed;
+    line-height: 15px;
+    
+    text-align: center;
+
+}
+.WeatherForecast .forcastElement .date {
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+.WeatherForecast .forcastElement .icon{
+    max-width: 60px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    margin-left: 20px;
+    
+}
+
+.WeatherForecast .forcastElement .maxTemp {
+    font-size: 13px;
+}
+.WeatherForecast .forcastElement .minTemp {
+    font-size: 11px;
+    color: #9aa0a6;
+}
