@@ -9,10 +9,10 @@ export default function App() {
     <h1>
       Weather Forecast
     </h1>
-      <Weather cityName={"Lisbon"}/>
+      <Weather cityName={"Limpopo"}/>
       <footer>
-      Coded by Saba and it is{" "}
-       <a href='https://github.com/SabaKD/react-weather-application'>Open-sourced on github</a>
+      Coded by Sade and it is{" "}
+       <a href='https://github.com/sademakhubele/react-weather-w5.git'>Open-sourced on github</a>
         
        </footer>
     </div>
