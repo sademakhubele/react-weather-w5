@@ -10,6 +10,7 @@ export default function App() {
       Weather Forecast
     </h1>
       <Weather cityName={"Limpopo"}/>
+      <Weather />
       <footer>
       Coded by Sade and it is{" "}
        <a href='https://github.com/sademakhubele/react-weather-w5.git'>Open-sourced on github</a>
