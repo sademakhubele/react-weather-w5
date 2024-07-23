@@ -1,6 +1,4 @@
-import React from "react";
-import FormattedDate from "./FormattedDate";
-import WeatherUnitConversion from "./WeatherUnitConversion";
+import React, {useState} from "react";
 
 
 export default function WeatherUnitConversion(props){

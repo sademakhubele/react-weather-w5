@@ -2,15 +2,15 @@ import React from "react";
 import "./WeatherForecast.css"
 import WeatherForecastDay from "./WeatherForecastDay";
 
-export default function WeatherForecastForecast() {
+export default function WeatherForecastForecast(props) {
     return (
         <div className="WeatherForecast">
             <div className="row">
-                {weatherForecast.map(function(dailyForecast,index){
+                {props.data.map(function(dailyForecast,index){
                     if(index<6){
                         return (
                             <div className="col-2 forecastElelement">
-                                <weatherForecastDay data={dailyForecast}/>
+                                <WeatherForecastDay data={dailyForecast}/>
                             </div>
                         );
                     } else {
@@ -22,4 +22,4 @@ export default function WeatherForecastForecast() {
             </div>
         </div>
     )
-}
+} 

@@ -1,8 +1,8 @@
 body {
-    background-color: #1f1f1f !important;
+    background-color: rgb(243, 159, 173) !important;
 } 
 .Weather{
-    border: 1px solid #565759;
+    border: 1px solid #1c2433;
     padding: 20px;
     
 }
@@ -13,13 +13,13 @@ body {
     text-align: right;
 }
 .Weather h1{
-    color: #e8eaed;
+    color: #1e375e;
     font-size: 22px;
     line-height: 26px;
     margin: 0;
 }
 .Weather ul{
-    color: #9e9e9e;
+    color: #502b2b;
     list-style: none;
 }
 .Weather .right-side ul{
@@ -33,12 +33,12 @@ body {
 }
 .Weather .left-side .temperature {
     font-size: 48px;
-    color: #e8eaed;
+    color: #39547e;
     vertical-align: top;
     margin-left: 10px;
 }
 .Weather .left-side .unit{
-    color: #e8eaed;
+    color: #0c1d36;
     display: inline-block;
     font-size: 16px;
     line-height: 24px;
@@ -51,7 +51,7 @@ body {
     max-width: 70px !important;
 }
 .Weather strong{
-    color: #e8eaed;
+    color: #09172c;
     font-size: 20px;
 }
 
